@@ -434,7 +434,39 @@
 		4F1E15BE21C8E76C00A62E2F /* MVMavlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E141521C8E76B00A62E2F /* MVMavlink.m */; };
 		4F1E15BF21C8E76C00A62E2F /* protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1E141621C8E76B00A62E2F /* protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F1E15C121C8E82C00A62E2F /* MavPPM.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1E15C021C8E82C00A62E2F /* MavPPM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F1E15CA21C8E96A00A62E2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E15C921C8E96A00A62E2F /* AppDelegate.m */; };
+		4F1E15CD21C8E96A00A62E2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E15CC21C8E96A00A62E2F /* ViewController.m */; };
+		4F1E15D021C8E96A00A62E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E15CE21C8E96A00A62E2F /* Main.storyboard */; };
+		4F1E15D221C8E96B00A62E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E15D121C8E96B00A62E2F /* Assets.xcassets */; };
+		4F1E15D521C8E96B00A62E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E15D321C8E96B00A62E2F /* LaunchScreen.storyboard */; };
+		4F1E15D821C8E96B00A62E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E15D721C8E96B00A62E2F /* main.m */; };
+		4F1E15DC21C8E97400A62E2F /* MPMavlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1E013D21C7EF9400A62E2F /* MPMavlink.framework */; };
+		4F1E15DD21C8E97400A62E2F /* MPMavlink.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1E013D21C7EF9400A62E2F /* MPMavlink.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F1E15DE21C8E97400A62E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1E013421C7EF9400A62E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1E013C21C7EF9400A62E2F;
+			remoteInfo = MPMavlink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F1E15E021C8E97500A62E2F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4F1E15DD21C8E97400A62E2F /* MPMavlink.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4F1E013D21C7EF9400A62E2F /* MPMavlink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPMavlink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -866,6 +898,16 @@
 		4F1E141521C8E76B00A62E2F /* MVMavlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVMavlink.m; path = ../../mavlink/include/v1/MVMavlink.m; sourceTree = "<group>"; };
 		4F1E141621C8E76B00A62E2F /* protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = protocol.h; path = ../../mavlink/include/v1/protocol.h; sourceTree = "<group>"; };
 		4F1E15C021C8E82C00A62E2F /* MavPPM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MavPPM.h; sourceTree = "<group>"; };
+		4F1E15C621C8E96A00A62E2F /* MPMavlinkTestsAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPMavlinkTestsAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1E15C821C8E96A00A62E2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F1E15C921C8E96A00A62E2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F1E15CB21C8E96A00A62E2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F1E15CC21C8E96A00A62E2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F1E15CF21C8E96A00A62E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F1E15D121C8E96B00A62E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F1E15D421C8E96B00A62E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F1E15D621C8E96B00A62E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1E15D721C8E96B00A62E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -876,6 +918,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F1E15C321C8E96A00A62E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1E15DC21C8E97400A62E2F /* MPMavlink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -883,6 +933,7 @@
 			isa = PBXGroup;
 			children = (
 				4F1E013F21C7EF9400A62E2F /* MPMavlink */,
+				4F1E15C721C8E96A00A62E2F /* MPMavlinkTestsAPP */,
 				4F1E013E21C7EF9400A62E2F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -891,6 +942,7 @@
 			isa = PBXGroup;
 			children = (
 				4F1E013D21C7EF9400A62E2F /* MPMavlink.framework */,
+				4F1E15C621C8E96A00A62E2F /* MPMavlinkTestsAPP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1347,6 +1399,22 @@
 			path = ../../mavlink/include/v1/common;
 			sourceTree = "<group>";
 		};
+		4F1E15C721C8E96A00A62E2F /* MPMavlinkTestsAPP */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E15C821C8E96A00A62E2F /* AppDelegate.h */,
+				4F1E15C921C8E96A00A62E2F /* AppDelegate.m */,
+				4F1E15CB21C8E96A00A62E2F /* ViewController.h */,
+				4F1E15CC21C8E96A00A62E2F /* ViewController.m */,
+				4F1E15CE21C8E96A00A62E2F /* Main.storyboard */,
+				4F1E15D121C8E96B00A62E2F /* Assets.xcassets */,
+				4F1E15D321C8E96B00A62E2F /* LaunchScreen.storyboard */,
+				4F1E15D621C8E96B00A62E2F /* Info.plist */,
+				4F1E15D721C8E96B00A62E2F /* main.m */,
+			);
+			path = MPMavlinkTestsAPP;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1666,6 +1734,25 @@
 			productReference = 4F1E013D21C7EF9400A62E2F /* MPMavlink.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4F1E15C521C8E96A00A62E2F /* MPMavlinkTestsAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1E15D921C8E96B00A62E2F /* Build configuration list for PBXNativeTarget "MPMavlinkTestsAPP" */;
+			buildPhases = (
+				4F1E15C221C8E96A00A62E2F /* Sources */,
+				4F1E15C321C8E96A00A62E2F /* Frameworks */,
+				4F1E15C421C8E96A00A62E2F /* Resources */,
+				4F1E15E021C8E97500A62E2F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1E15DF21C8E97400A62E2F /* PBXTargetDependency */,
+			);
+			name = MPMavlinkTestsAPP;
+			productName = MPMavlinkTestsAPP;
+			productReference = 4F1E15C621C8E96A00A62E2F /* MPMavlinkTestsAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1678,6 +1765,9 @@
 					4F1E013C21C7EF9400A62E2F = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					4F1E15C521C8E96A00A62E2F = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 4F1E013721C7EF9400A62E2F /* Build configuration list for PBXProject "MPMavlink" */;
@@ -1686,6 +1776,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4F1E013321C7EF9400A62E2F;
 			productRefGroup = 4F1E013E21C7EF9400A62E2F /* Products */;
@@ -1693,6 +1784,7 @@
 			projectRoot = "";
 			targets = (
 				4F1E013C21C7EF9400A62E2F /* MPMavlink */,
+				4F1E15C521C8E96A00A62E2F /* MPMavlinkTestsAPP */,
 			);
 		};
 /* End PBXProject section */
@@ -1702,6 +1794,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1E15C421C8E96A00A62E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1E15D521C8E96B00A62E2F /* LaunchScreen.storyboard in Resources */,
+				4F1E15D221C8E96B00A62E2F /* Assets.xcassets in Resources */,
+				4F1E15D021C8E96A00A62E2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1854,7 +1956,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F1E15C221C8E96A00A62E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1E15CD21C8E96A00A62E2F /* ViewController.m in Sources */,
+				4F1E15D821C8E96B00A62E2F /* main.m in Sources */,
+				4F1E15CA21C8E96A00A62E2F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F1E15DF21C8E97400A62E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1E013C21C7EF9400A62E2F /* MPMavlink */;
+			targetProxy = 4F1E15DE21C8E97400A62E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F1E15CE21C8E96A00A62E2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1E15CF21C8E96A00A62E2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F1E15D321C8E96B00A62E2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1E15D421C8E96B00A62E2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4F1E014321C7EF9400A62E2F /* Debug */ = {
@@ -2029,6 +2168,42 @@
 			};
 			name = Release;
 		};
+		4F1E15DA21C8E96B00A62E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VQ94C2355;
+				INFOPLIST_FILE = MPMavlinkTestsAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric3u.MPMavlinkTestsAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F1E15DB21C8E96B00A62E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VQ94C2355;
+				INFOPLIST_FILE = MPMavlinkTestsAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric3u.MPMavlinkTestsAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2046,6 +2221,15 @@
 			buildConfigurations = (
 				4F1E014621C7EF9400A62E2F /* Debug */,
 				4F1E014721C7EF9400A62E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1E15D921C8E96B00A62E2F /* Build configuration list for PBXNativeTarget "MPMavlinkTestsAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1E15DA21C8E96B00A62E2F /* Debug */,
+				4F1E15DB21C8E96B00A62E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

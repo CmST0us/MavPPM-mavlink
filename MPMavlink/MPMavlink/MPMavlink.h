@@ -15,3 +15,5 @@ FOUNDATION_EXPORT double MPMavlinkVersionNumber;
 FOUNDATION_EXPORT const unsigned char MPMavlinkVersionString[];
 
 #import <MPMavlink/MVMavlink.h>
+#import <MPMavlink/MavPPM.h>
+

@@ -19,6 +19,6 @@
 #define MAVPPM_COMPONENT_ID_IOS_APP 10
 
 #pragma mark EMB
-#define MAVPPM_COMPONENT_ID_EMB_APP
+#define MAVPPM_COMPONENT_ID_EMB_APP 11
 
 #endif /* MavPPM_h */
